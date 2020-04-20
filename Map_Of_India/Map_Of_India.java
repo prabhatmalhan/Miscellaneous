@@ -1,5 +1,3 @@
-
-
 class Map_Of_India
 {
     public static void main(String[] args)
