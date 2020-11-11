@@ -17,9 +17,8 @@ int main()
             cin>>arr[i];
             sr += arr[i];
         }
-        sl += arr[0];
-        sr -= arr[0];
-        for(int i=1 ; i<n-1 ; ++i)
+        
+        for(int i=0 ; i<n-1 ; ++i)
         {
             sr -= arr[i];
             if(sl == sr)
